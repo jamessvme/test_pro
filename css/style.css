@@ -122,9 +122,62 @@
 }
 .main-post p{
     font-size: 12px;
+    color: black;
 }
-
-
-
-
-
+.main-post .min{
+    margin-top: -1rem;
+    margin-right: 5px;
+    /* width: !important; */
+}
+.write-post  h5{
+    font-size: 10px;
+    font-size: 1rem;
+    margin-left: 8px;
+    margin-top: 5px;
+}
+.write-post i{
+    color:#FA2738;
+}
+.offer-temp-head h1{
+    font-weight: 800;
+}
+.offer-temp-price-gray{
+    color:gray;
+}
+.offer-temp-head .desc{
+    font-size: 14px;
+    padding: 5px;
+    font-weight: 400;
+    color:#3D9676;
+    background-color: #47C7991A;
+}
+.expense h6{
+    font-size: 1rem;
+}
+.expense h5{
+    font-size: 1.1rem;
+}
+.three-dot h1{
+    cursor: pointer;
+    font-size: 3rem;
+    margin-top: -3rem;
+    text-align: center;
+}
+.three-dot span{
+    color:gray;
+}
+.like-image img{
+    height: 24px;
+    width: 24px;
+}
+.like-image img:nth-child(2){
+    margin-left: -14px;
+} 
+.like-image img:nth-child(3){
+    margin-left: -14px;
+} 
+.post-action .item{
+    margin: 8px 10px;
+    cursor: pointer;
+    color: black;
+}
