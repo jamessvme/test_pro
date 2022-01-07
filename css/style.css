@@ -1,0 +1,103 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap'); */
+.navbar-item a,i{
+    color: #7E7E7E;
+    font-size: 15px;
+}
+.maincontainer{
+    margin: 0px 7rem;
+}
+#navbarProfileSelect{
+    border: none;
+    outline: none;
+    background-color: transparent;
+    margin-left: -0.5rem;
+}
+
+.has-search .form-control {
+    padding-left: 2.375rem;
+    border-radius: 20px;
+}
+.has-search .form-control-feedback {
+    position: absolute;
+    z-index: 2;
+    display: block;
+    width: 3.5rem;
+    height: 1rem;
+    line-height: 2.375rem;
+    text-align: center;
+    pointer-events: none;
+    color: #EFEFEF;
+}
+.asibde-left-card{
+    border:none;
+    background-color: none !important;
+    border: none ip !important;
+}
+.asibde-left-box{
+    background-color: white !important;
+    border-bottom: none;
+}
+.asibde-left-box h5, p{
+    margin: 0;
+    padding:0;
+}
+.asibde-left-box  p{
+    font-size: 10px;
+    font-weight: 500;
+}
+.asibde-left-box  h5{
+    font-size: 15px;
+    font-weight: 800;
+}
+.aside-left-address p{
+    font-size: 10px;
+    font-weight: 500;
+}
+.aside-left-address i{
+    color:#FC2737;
+    padding-right: 5px;
+}
+.aside-left-about p{
+    font-size: 10px;
+    font-weight: 500;
+}
+.aside-left-about {
+    padding-top: 0;
+}
+.aside-left-contact{
+    border:none !important;
+}
+.aside-left-contact i{
+    color:#FC2737;
+    font-size: 1.3rem;
+}
+.aside-left-contact h5{
+    margin-left: -8px;
+    font-size: 15px;
+}
+.aside-left-contact p{
+    font-weight: 600;
+}
+.asibe-left-manage{
+    border:none;
+}
+.asibe-left-manage ul li{
+    border-bottom: none;
+    cursor: pointer;
+}
+.asibe-left-manage .card-header{
+    padding:15px;
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+.asibe-left-manage li{
+    font-weight: 500;
+}
+.coyright-section{
+    font-weight: 400;
+    font-size: 14px;
+}
+
+
+
+
