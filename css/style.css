@@ -97,6 +97,30 @@
     font-weight: 400;
     font-size: 14px;
 }
+.aside-right-people ul h6{
+    margin-bottom: 0;
+    font-weight: 700;
+}
+
+.aside-right-people ul  p{
+    font-size: 10px;
+    color:#C4C4C4
+} 
+.aside-right-people  button{
+    width: 100px !important;
+    height: 30px !important;
+} 
+.aside-right-news ul li{
+    border-bottom: 1px solid #C4C4C4;
+} 
+.aside-right-news ul li span ,p{
+    color:#C4C4C4;
+    font-size: 10px;
+}
+.aside-right-news ul li span{
+    font-size: 8px;
+}
+
 
 
 
