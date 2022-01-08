@@ -2,9 +2,7 @@
 .navbar-item a,i{
     color: #7E7E7E;
     font-size: 15px;
-}
-.maincontainer{
-    margin: 0px 7rem;
+    font-weight: 500;
 }
 #navbarProfileSelect{
     border: none;
@@ -12,7 +10,6 @@
     background-color: transparent;
     margin-left: -0.5rem;
 }
-
 .has-search .form-control {
     padding-left: 2.375rem;
     border-radius: 20px;
@@ -127,12 +124,10 @@
 .main-post .min{
     margin-top: -1rem;
     margin-right: 5px;
-    /* width: !important; */
 }
 .write-post  h5{
-    font-size: 10px;
     font-size: 1rem;
-    margin-left: 8px;
+    /* margin-left: 8px; */
     margin-top: 5px;
 }
 .write-post i{
@@ -180,4 +175,38 @@
     margin: 8px 10px;
     cursor: pointer;
     color: black;
+}
+@media only screen and (max-width:600px){
+    .offer-section{
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        /* min-width: 550px; */
+    }
+    .offer-section img{
+        position: relative;
+        top:-200px;
+    }
+    .offer-temp-desc{
+        position: relative;
+        top:205px;
+    }
+    .offer-section button{
+        position: relative;
+        top:200px;
+    }
+    .container-div{
+        position: relative;
+    }
+    .offer-section-top{
+        position: absolute;
+        top: 13rem;
+    }
+    .post-section{
+        top: -13rem;
+        position: absolute;
+        left: 0;
+        right: 0;
+        margin: 0 10px;
+    }
 }
