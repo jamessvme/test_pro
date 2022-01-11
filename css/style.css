@@ -1,4 +1,16 @@
-/* @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap'); */
+@font-face {
+    font-family: "avenir";
+    src: url("/font/avenir_ff/AvenirLTStd-Roman.otf");
+}
+.bg-red{
+    background-color:#FA2738
+}
+.bd-sm-gray{
+    background-color: #D4CCC4;
+}
+body{
+    font-family:avenir;       
+}
 .navbar-item a,i{
     color: #7E7E7E;
     font-size: 15px;
@@ -96,6 +108,11 @@
     font-weight: 400;
     font-size: 14px;
 }
+.coyright-section span{
+    cursor: pointer;
+    padding-right:5px;
+}
+
 .aside-right-people .btn-main{
     border-top-left-radius: 0px;
     border-top-right-radius: 0px;
@@ -104,17 +121,19 @@
     border-bottom-right-radius: 10px;
 }
 .aside-right-people ul h6{
+    font-size: 12px;
     margin-bottom: 0;
     font-weight: 700;
 }
 
 .aside-right-people ul  p{
-    font-size: 10px;
+    font-size: 8px;
     color:#C4C4C4
 } 
 .aside-right-people  button{
-    width: 100px !important;
+    width: 80px !important;
     height: 30px !important;
+    font-size: 10px;
 } 
 .aside-right-news ul li{
     border-bottom: 1px solid #C4C4C4;
@@ -141,12 +160,13 @@
 .write-post i{
     color:#FA2738;
 }
-.offer-temp-head h1{
+.offer-temp-head h2{
     font-weight: 800;
 }
 .offer-temp-price-gray{
     color:gray;
 }
+
 .offer-temp-head .desc{
     font-size: 14px;
     padding: 5px;
@@ -155,10 +175,11 @@
     background-color: #47C7991A;
 }
 .expense h6{
-    font-size: 1rem;
+    font-size: 0.6rem;
 }
 .expense h5{
-    font-size: 1.1rem;
+    font-size: 0.8rem;
+    padding:0;
 }
 .three-dot h1{
     cursor: pointer;
@@ -200,11 +221,11 @@
     }
     .offer-temp-desc{
         position: relative;
-        top:160px;
+        top:15rem;
     }
     .offer-section button{
         position: relative;
-        top: 155px;
+        top: 15rem;
     }
     .container-div{
         position: relative;
