@@ -207,9 +207,14 @@ body{
 }
 .header-mobile-devices{
     box-shadow: 0 2px 5px -2px gray;
-    display: none;
 }
-@media only screen and (max-width:600px){
+header{
+    box-shadow: 0 2px 10px -2px gray
+}
+nav ul> li > a> i{
+    font-size: 1.2rem;
+}
+@media only screen and (max-width:576px){
     .offer-section{
         display: flex;
         flex-direction: column;
@@ -241,13 +246,10 @@ body{
         right: 0;
         margin: 0 10px;
     }
-    header .navbar{
-        box-shadow: none;
-    }
-    .header-mobile-devices{
-        display: block;
-    }
-    header .navbar-nav li a{
-        margin-left: 8px;
+    header{
+        box-shadow: none
     }
 }
+
+
+
