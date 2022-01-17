@@ -1,6 +1,6 @@
 @font-face {
-    font-family: "avenir";
-    src: url("/font/avenir_ff/AvenirLTStd-Roman.otf");
+    font-family: avenir;
+    src: url("/font/avenir_ff/AvenirLTStd-Book.otf");
 }
 .bg-red{
     background-color:#FA2738
@@ -9,18 +9,22 @@
     background-color: #D4CCC4;
 }
 body{
-    font-family:avenir;       
+    font-family:avenir !important;       
 }
-.navbar-item a,i{
+.navbar-item a{
     color: #7E7E7E;
-    font-size: 15px;
-    font-weight: 500;
+    font-size: 12px;
+    font-weight: 600;
+}
+.navbar-item img{
+    width: 15px;
+    height: 15px;
 }
 #navbarProfileSelect{
     border: none;
     outline: none;
     background-color: transparent;
-    margin-left: -0.5rem;
+    margin-left: -0.8rem;
 }
 .has-search .form-control {
     padding-left: 2.375rem;
@@ -30,7 +34,7 @@ body{
     position: absolute;
     z-index: 2;
     display: block;
-    width: 3.5rem;
+    width: 3.15rem;
     height: 1rem;
     line-height: 2.375rem;
     text-align: center;
@@ -40,13 +44,13 @@ body{
 .asibde-left-card{
     border:none;
     background-color: none !important;
-    border: none ip !important;
+    border: none !important;
 }
 .asibde-left-box{
     background-color: white !important;
     border-bottom: none;
 }
-.asibde-left-box h5, p{
+.asibde-left-box h3, p{
     margin: 0;
     padding:0;
 }
@@ -54,21 +58,26 @@ body{
     font-size: 10px;
     font-weight: 500;
 }
-.asibde-left-box  h5{
-    font-size: 15px;
-    font-weight: 800;
+.left-title h3{
+    font-size: 18px;
+    font-weight: 900;
 }
 .aside-left-address p{
-    font-size: 10px;
+    font-size: 12px;
     font-weight: 500;
+    margin-top: 2px;
 }
-.aside-left-address i{
-    color:#FC2737;
+.aside-left-address img{
     padding-right: 5px;
 }
+.aside-left-about h3{
+    font-size: 18px;
+    font-weight: 900;
+}
 .aside-left-about p{
+    color:#282828;
     font-size: 10px;
-    font-weight: 500;
+    font-weight: 600;
 }
 .aside-left-about {
     padding-top: 0;
@@ -76,16 +85,15 @@ body{
 .aside-left-contact{
     border:none !important;
 }
-.aside-left-contact i{
-    color:#FC2737;
-    font-size: 1.3rem;
-}
 .aside-left-contact h5{
     margin-left: -8px;
-    font-size: 15px;
+    font-size: 14px;
 }
-.aside-left-contact p{
-    font-weight: 600;
+.aside-left-contact h4{
+    font-size: 14px;
+    font-weight: 900;
+    margin-left: 5px;
+    margin-top: 5px;
 }
 .asibe-left-manage{
     border:none;
@@ -154,11 +162,10 @@ body{
     margin-right: 5px;
 }
 .write-post  h5{
-    font-size: 1rem;
-    margin-top: 5px;
-}
-.write-post i{
-    color:#FA2738;
+    font-size: 16px;
+    margin-top: 10px;
+    font-weight: 500;
+    margin-left: 4px;
 }
 .offer-temp-head h2{
     font-weight: 800;
@@ -205,6 +212,9 @@ body{
     cursor: pointer;
     color: black;
 }
+.post-action span{
+    font-size: 12px;
+}
 .header-mobile-devices{
     box-shadow: 0 2px 5px -2px gray;
 }
@@ -214,23 +224,33 @@ header{
 nav ul> li > a> i{
     font-size: 1.2rem;
 }
+.offer-img-section{
+    height: 207px !important;
+    width: 267px !important;
+}
 @media only screen and (max-width:576px){
     .offer-section{
         display: flex;
         flex-direction: column;
         position: relative;
     }
+    .offer-img-section{
+        height: 100% !important;
+        width: 100% !important;
+    }
     .offer-section img{
         position: relative;
-        top:-200px;
-    }
+        top:-220px;
+        width: 100%;
+        height: 100%;
+    } 
     .offer-temp-desc{
         position: relative;
-        top:15rem;
+        top:8rem;
     }
     .offer-section button{
         position: relative;
-        top: 15rem;
+        top: 9rem;
     }
     .container-div{
         position: relative;
@@ -240,7 +260,7 @@ nav ul> li > a> i{
         top: 10rem;
     }
     .post-section{
-        top: -10rem;
+        top: -10.4rem;
         position: absolute;
         left: 0;
         right: 0;
