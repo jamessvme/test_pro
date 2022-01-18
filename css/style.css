@@ -52,13 +52,13 @@ body{
     padding-right: 5px;
 }
 .aside-left-about h3{
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 900;
 }
 .aside-left-about p{
     color:#282828;
     font-size: 10px;
-    font-weight: 600;
+    font-weight: 500;
 }
 .aside-left-about {
     padding-top: 0;
@@ -69,15 +69,22 @@ body{
 .aside-left-contact h5{
     margin-left: -8px;
     font-size: 14px;
+    font-weight: 800;
 }
 .aside-left-contact h4{
     font-size: 14px;
-    font-weight: 900;
+    font-weight: 800;
     margin-left: 5px;
     margin-top: 5px;
 }
+.aside-items-font .card-header h3{
+    font-size: 16px;
+    font-weight: 900;
+}
 .asibe-left-manage span{
     margin-left: 5px;
+    font-size: 12px;
+    font-weight: 600;
 }
 .asibe-left-manage{
     border:none;
@@ -164,8 +171,22 @@ body{
     font-weight: 500;
     margin-left: 4px;
 }
-.offer-temp-head h2{
+.offer-temp-head h5{
+    font-size: 18px;
+    font-weight: 900;
+    line-height: 10px;
+}
+
+.offer-temp-head h1{
     font-weight: 800;
+    font-size: 48px;
+    line-height: 60px;
+    color: #282828;
+    
+}
+.offer-temp-head sup{
+    vertical-align: super;
+    font-size: small;
 }
 .offer-temp-price-gray{
     color:gray;
@@ -179,11 +200,14 @@ body{
     background-color: #47C7991A;
 }
 .expense h6{
-    font-size: 0.6rem;
+    font-size: 14px;
+    font-weight: 900;
+    padding:0;
 }
 .expense h5{
-    font-size: 0.8rem;
     padding:0;
+    font-size: 18px;
+    font-weight: 900;
 }
 .three-dot h1{
     cursor: pointer;
@@ -241,10 +265,17 @@ nav ul> li > a> i{
     font-weight: 500;
     line-height: 14px;
 }
+.offer-section img{
+    min-width: 200px;
+    height: 400px;
+} 
 @media only screen and (min-width:770px){
     .navbar-nav .navbar-item a{
         margin-left: -5px;
     }
+    .offer-section img{
+        min-height: 260px !important;
+    } 
 }
 @media only screen and (max-width:768px){
     .navbar-nav .navbar-item a{
@@ -267,13 +298,18 @@ nav ul> li > a> i{
     }
     .offer-section img{
         position: relative;
-        top:-220px;
+        top:-14.8rem;
         width: 100%;
         height: 100%;
     } 
     .offer-temp-desc{
         position: relative;
-        top:9rem;
+        top:10.5rem;
+        width: 100%;
+    }
+    .offer-section button{
+        position: relative;
+        top: 10  rem;
         width: 100%;
     }
     .offer-temp-desc p{
@@ -281,20 +317,15 @@ nav ul> li > a> i{
         font-weight: 500;
         line-height: 14px;
     }
-    .offer-section button{
-        position: relative;
-        top: 9rem;
-        width: 100%;
-    }
     .container-div{
         position: relative;
     }
     .offer-section-top{
         position: absolute;
-        top: 10rem;
+        top: 11.5rem;
     }
     .post-section{
-        top: -10.4rem;
+        top: -12rem;
         position: absolute;
         left: 0;
         right: 0;
