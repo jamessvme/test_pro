@@ -1,7 +1,3 @@
-@font-face {
-    font-family: avenir;
-    src: url("/font/avenir_ff/AvenirLTStd-Book.otf");
-}
 .bg-red{
     background-color:#FA2738
 }
@@ -9,7 +5,7 @@
     background-color: #D4CCC4;
 }
 body{
-    font-family:avenir !important;       
+    font-family: 'Lato', sans-serif;     
 }
 .navbar-item a{
     color: #7E7E7E;
