@@ -304,13 +304,14 @@ nav ul> li > a> i{
     } 
     .offer-temp-desc{
         position: relative;
-        top:10.5rem;
+        top:8.5rem;
         width: 100%;
     }
     .offer-section button{
         position: relative;
-        top: 10  rem;
+        top: 8rem;
         width: 100%;
+        /* transform: translate3d(0,0,0); for iphone devices*/
     }
     .offer-temp-desc p{
         font-size: 10px;
