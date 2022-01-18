@@ -7,21 +7,6 @@
 body{
     font-family: 'Lato', sans-serif;     
 }
-.navbar-item a{
-    color: #7E7E7E;
-    font-size: 12px;
-    font-weight: 600;
-}
-.navbar-item img{
-    width: 15px;
-    height: 15px;
-}
-#navbarProfileSelect{
-    border: none;
-    outline: none;
-    background-color: transparent;
-    margin-left: -0.8rem;
-}
 .has-search .form-control {
     padding-left: 2.375rem;
     border-radius: 20px;
@@ -91,6 +76,9 @@ body{
     margin-left: 5px;
     margin-top: 5px;
 }
+.asibe-left-manage span{
+    margin-left: 5px;
+}
 .asibe-left-manage{
     border:none;
     border-bottom-left-radius: 20px;
@@ -99,6 +87,8 @@ body{
 .asibe-left-manage ul li{
     border-bottom: none;
     cursor: pointer;
+    font-size: 12px;
+    font-weight: 800;
 }
 .asibe-left-manage .card-header{
     padding:15px;
@@ -108,13 +98,17 @@ body{
 .asibe-left-manage li{
     font-weight: 500;
 }
-.coyright-section{
-    font-weight: 400;
-    font-size: 14px;
+.coyright-section h6{
+    font-size: 12px;
+    font-weight: 500;
+    cursor: pointer;
 }
 .coyright-section span{
+    font-size: 10px;
+    font-weight: 500;
     cursor: pointer;
     padding-right:5px;
+    cursor: pointer;
 }
 
 .aside-right-people .btn-main{
@@ -124,14 +118,20 @@ body{
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
 }
+.aside-right-people h3{
+    font-size: 16px;
+    font-weight: 800;
+}
 .aside-right-people ul h6{
     font-size: 12px;
     margin-bottom: 0;
-    font-weight: 700;
+    font-weight: 600;
 }
 
 .aside-right-people ul  p{
-    font-size: 8px;
+    font-size: 10px;
+    line-height: 14px;
+    font-weight: normal;
     color:#C4C4C4
 } 
 .aside-right-people  button{
@@ -142,11 +142,12 @@ body{
 .aside-right-news ul li{
     border-bottom: 1px solid #C4C4C4;
 } 
-.aside-right-news ul li span ,p{
+.aside-right-news ul li p{
     color:#C4C4C4;
     font-size: 10px;
+    font-weight: 500;
 }
-.aside-right-news ul li span{
+.text-sm-time{
     font-size: 8px;
 }
 .main-post p{
@@ -224,7 +225,37 @@ nav ul> li > a> i{
     height: 207px !important;
     width: 267px !important;
 }
+
+.navbar-nav .navbar-item a{
+    color: #7E7E7E;
+    font-size: 12px;
+    font-weight: 600;
+}
+#navbarProfileSelect{
+    border: none;
+    outline: none;
+    background-color: transparent;
+}
+.offer-temp-desc p{
+    font-size: 10px;
+    font-weight: 500;
+    line-height: 14px;
+}
+@media only screen and (min-width:770px){
+    .navbar-nav .navbar-item a{
+        margin-left: -5px;
+    }
+}
+@media only screen and (max-width:768px){
+    .navbar-nav .navbar-item a{
+        margin-left: 10px;
+    }
+}
+
 @media only screen and (max-width:576px){
+    .navbar-nav .navbar-item a{
+        margin-left: 10px;
+    }
     .offer-section{
         display: flex;
         flex-direction: column;
@@ -242,11 +273,18 @@ nav ul> li > a> i{
     } 
     .offer-temp-desc{
         position: relative;
-        top:8rem;
+        top:9rem;
+        width: 100%;
+    }
+    .offer-temp-desc p{
+        font-size: 10px;
+        font-weight: 500;
+        line-height: 14px;
     }
     .offer-section button{
         position: relative;
         top: 9rem;
+        width: 100%;
     }
     .container-div{
         position: relative;
@@ -266,6 +304,5 @@ nav ul> li > a> i{
         box-shadow: none
     }
 }
-
 
 
