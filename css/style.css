@@ -84,7 +84,7 @@ body{
 .asibe-left-manage span{
     margin-left: 5px;
     font-size: 12px;
-    font-weight: 600;
+    font-weight: 500;
 }
 .asibe-left-manage{
     border:none;
@@ -172,21 +172,24 @@ body{
     margin-left: 4px;
 }
 .offer-temp-head h5{
-    font-size: 18px;
-    font-weight: 900;
+    padding: 0;
+    margin: 0;
+    font-size: 16px;
+    font-weight: 700;
     line-height: 10px;
 }
 
 .offer-temp-head h1{
-    font-weight: 800;
-    font-size: 48px;
-    line-height: 60px;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 50px;
     color: #282828;
     
 }
 .offer-temp-head sup{
     vertical-align: super;
     font-size: small;
+    margin-right: -5px;
 }
 .offer-temp-price-gray{
     color:gray;
@@ -201,13 +204,15 @@ body{
 }
 .expense h6{
     font-size: 14px;
-    font-weight: 900;
+    font-weight: 500;
     padding:0;
+    margin: 0;
 }
 .expense h5{
+    margin:0;
     padding:0;
-    font-size: 18px;
-    font-weight: 900;
+    font-size: 17px;
+    font-weight: 600;
 }
 .three-dot h1{
     cursor: pointer;
@@ -266,18 +271,23 @@ nav ul> li > a> i{
     line-height: 14px;
 }
 .offer-section img{
-    min-width: 200px;
-    height: 400px;
+    min-width: 160px;
+    height: 300px;
 } 
 @media only screen and (min-width:770px){
     .navbar-nav .navbar-item a{
         margin-left: -5px;
     }
     .offer-section img{
-        min-height: 260px !important;
+        min-height: 260px;
     } 
 }
 @media only screen and (max-width:768px){
+    .navbar-nav .navbar-item a{
+        margin-left: 10px;
+    }
+}
+@media only screen and (max-width:820px){
     .navbar-nav .navbar-item a{
         margin-left: 10px;
     }
@@ -292,10 +302,6 @@ nav ul> li > a> i{
         flex-direction: column;
         position: relative;
     }
-    .offer-img-section{
-        height: 100% !important;
-        width: 100% !important;
-    }
     .offer-section img{
         position: relative;
         top:-14.8rem;
@@ -304,29 +310,23 @@ nav ul> li > a> i{
     } 
     .offer-temp-desc{
         position: relative;
-        top:8.5rem;
+        top:7.8rem;
         width: 100%;
     }
     .offer-section button{
         position: relative;
         top: 8rem;
         width: 100%;
-        /* transform: translate3d(0,0,0); for iphone devices*/
-    }
-    .offer-temp-desc p{
-        font-size: 10px;
-        font-weight: 500;
-        line-height: 14px;
     }
     .container-div{
         position: relative;
     }
     .offer-section-top{
         position: absolute;
-        top: 11.5rem;
+        top: 12.5rem;
     }
     .post-section{
-        top: -12rem;
+        top: -13rem;
         position: absolute;
         left: 0;
         right: 0;
