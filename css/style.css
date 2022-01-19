@@ -166,10 +166,13 @@ body{
     margin-right: 5px;
 }
 .write-post  h5{
-    font-size: 16px;
+    font-size: 14px;
     margin-top: 10px;
     font-weight: 500;
     margin-left: 4px;
+}
+.post-section input[placeholder]{
+    font-size: 14px;
 }
 .offer-temp-head h5{
     padding: 0;
