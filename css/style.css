@@ -277,6 +277,90 @@ nav ul> li > a> i{
     min-width: 160px;
     height: 300px;
 } 
+@media only screen and (max-width: 375px) {
+    .container-div{
+        position: relative;
+    }
+    .navbar-nav .navbar-item a{
+        margin-left: 10px;
+    }
+    .offer-section{
+        display: flex;
+        flex-direction: column;
+        position: relative;
+    }
+    .offer-section img{
+        position: relative;
+        top:-14.8rem;
+        width: 100%;
+        height: 100%;
+    } 
+    .offer-temp-desc{
+        position: relative;
+        top:7rem !important;
+        width: 100%;
+    }
+    .offer-section button{
+        position: relative;
+        top: 7rem;
+        width: 100%;
+    }
+    .offer-section-top{
+        position: absolute;
+        top: 11rem;
+    }
+    .post-section{
+        top: -11.5rem;
+        position: absolute;
+        left: 0;
+        right: 0;
+        margin: 0 10px;
+    }
+}
+@media only screen and (max-width:600px){
+    header{
+        box-shadow: none
+    }
+    .container-div{
+        position: relative;
+    }
+    .navbar-nav .navbar-item a{
+        margin-left: 10px;
+    }
+    .offer-section{
+        display: flex;
+        flex-direction: column;
+        position: relative;
+    }
+    .offer-section img{
+        position: relative;
+        top:-14.8rem;
+        width: 100%;
+        height: 100%;
+    } 
+    .offer-temp-desc{
+        position: relative;
+        top:8.7rem;
+        width: 100%;
+    }
+    .offer-section button{
+        position: relative;
+        top: 8.2rem;
+        width: 100%;
+    }
+    .offer-section-top{
+        position: absolute;
+        top: 11rem;
+    }
+    .post-section{
+        top: -11.5rem;
+        position: absolute;
+        left: 0;
+        right: 0;
+        margin: 0 10px;
+    } 
+   
+}
 @media only screen and (min-width:770px){
     .navbar-nav .navbar-item a{
         margin-left: -5px;
@@ -296,48 +380,10 @@ nav ul> li > a> i{
     }
 }
 
-@media only screen and (max-width:576px){
-    .navbar-nav .navbar-item a{
-        margin-left: 10px;
-    }
-    .offer-section{
-        display: flex;
-        flex-direction: column;
-        position: relative;
-    }
-    .offer-section img{
-        position: relative;
-        top:-14.8rem;
-        width: 100%;
-        height: 100%;
-    } 
-    .offer-temp-desc{
-        position: relative;
-        top:7.8rem;
-        width: 100%;
-    }
-    .offer-section button{
-        position: relative;
-        top: 8rem;
-        width: 100%;
-    }
-    .container-div{
-        position: relative;
-    }
-    .offer-section-top{
-        position: absolute;
-        top: 12.5rem;
-    }
-    .post-section{
-        top: -13rem;
-        position: absolute;
-        left: 0;
-        right: 0;
-        margin: 0 10px;
-    }
-    header{
-        box-shadow: none
-    }
-}
+
+
+
+
+
 
 
