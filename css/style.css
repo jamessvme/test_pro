@@ -4,8 +4,11 @@
 .bd-sm-gray{
     background-color: #D4CCC4;
 }
-body{
-    font-family: 'Lato', sans-serif;     
+body, p{
+    font-family: 'Lato', sans-serif !important;  
+}
+header > a{
+    font-weight: 400 !important;
 }
 .has-search .form-control {
     padding-left: 2.375rem;
@@ -69,11 +72,11 @@ body{
 .aside-left-contact h5{
     margin-left: -8px;
     font-size: 14px;
-    font-weight: 800;
+    font-weight: 500;
 }
 .aside-left-contact h4{
     font-size: 14px;
-    font-weight: 800;
+    font-weight: 600;
     margin-left: 5px;
     margin-top: 5px;
 }
@@ -106,12 +109,12 @@ body{
     font-weight: 500;
 }
 .coyright-section h6{
-    font-size: 12px;
+    font-size: 13px;
     font-weight: 500;
     cursor: pointer;
 }
 .coyright-section span{
-    font-size: 10px;
+    font-size: 12px;
     font-weight: 500;
     cursor: pointer;
     padding-right:5px;
