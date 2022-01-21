@@ -5,9 +5,10 @@
 .bd-sm-gray{
     background-color: #D4CCC4;
 }
-body, p{
+body{
     font-family: 'Lato', sans-serif !important;  
 }
+
 header > a{
     font-weight: 400 !important;
 }
@@ -83,7 +84,9 @@ header > a{
 }
 .aside-items-font .card-header h3{
     font-size: 16px;
-    font-weight: 900;
+    font-weight: 700;
+    padding: 0;
+    margin: 0;
 }
 .asibe-left-manage span{
     margin-left: 5px;
@@ -94,6 +97,10 @@ header > a{
     border:none;
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
+}
+.asibe-left-manage h4{
+    font-size: 18px;
+    font-weight: 600;
 }
 .asibe-left-manage ul li{
     border-bottom: none;
@@ -125,30 +132,26 @@ header > a{
 .aside-right-people .btn-main{
     border-top-left-radius: 0px;
     border-top-right-radius: 0px;
-
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
 }
 .aside-right-people h3{
     font-size: 16px;
-    font-weight: 800;
+    font-weight: 600;
 }
 .aside-right-people ul h6{
-    font-size: 12px;
+    font-size: 14px;
     margin-bottom: 0;
     font-weight: 600;
 }
-
 .aside-right-people ul  p{
-    font-size: 10px;
-    line-height: 14px;
-    font-weight: normal;
-    color:#C4C4C4
+    font-size: 11px;
+    color:#4e4e4e
 } 
 .aside-right-people  button{
     width: 80px !important;
     height: 30px !important;
-    font-size: 10px;
+    font-size: 12px;
 } 
 .aside-right-news ul li{
     border-bottom: 1px solid #C4C4C4;
@@ -163,7 +166,7 @@ header > a{
 }
 .main-post p{
     font-size: 12px;
-    color: black;
+    font-weight: 400;
 }
 .main-post .min{
     margin-top: -1rem;
@@ -172,7 +175,7 @@ header > a{
 .write-post  h5{
     font-size: 14px;
     margin-top: 10px;
-    font-weight: 500;
+    font-weight: 450;
     margin-left: 4px;
 }
 .post-section input[placeholder]{
@@ -182,7 +185,7 @@ header > a{
     padding: 0;
     margin: 0;
     font-size: 16px;
-    font-weight: 700;
+    font-weight: 600;
     line-height: 10px;
 }
 
@@ -246,7 +249,11 @@ header > a{
     color: black;
 }
 .post-action span{
-    font-size: 12px;
+    font-size: 14px;
+    margin-top: 2px;
+}
+.post-action img{
+    width: 14px;
 }
 .header-mobile-devices{
     box-shadow: 0 2px 5px -2px gray;
