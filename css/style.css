@@ -32,9 +32,22 @@ p{
     font-size: 13px;
     font-weight: 500;
 }
-.coyright-section span{
+.coyright-section h6 span{
+    color: red;
+    font-weight: 600;
+    cursor: pointer;
+    /* font-size: 13px; */
+    /* font-weight: 500; */
+}
+.coyright-section a{
     font-size: 11px;
     font-weight: 500;
+    margin-right: 5px;
+    cursor: pointer;
+}
+.coyright-section a:hover{
+    color:blue !important;
+    font-weight: 600;
 }
 .list-group-item-action span{
     font-size: 12px;
@@ -88,6 +101,11 @@ p{
 .write-post  h5{
     font-weight: 400;
     margin-left: 5px;
+}
+.post-section .btn-light:hover {
+    background-color: #dc3545 !important;
+    color:white;
+    transition: 0.4s ease-in-out;
 }
 .has-search .form-control {
     padding-left: 3.5rem;
@@ -166,6 +184,9 @@ header,  .header-mobile-devices {
     font-size: 12px;
     font-weight: 400;
     margin-left: -5px;
+}
+.navbar-nav .navbar-item a:hover{
+    color: blue !important;
 }
 #navbarProfileSelect{
     border: none;
