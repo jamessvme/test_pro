@@ -36,8 +36,6 @@ p{
     color: red;
     font-weight: 600;
     cursor: pointer;
-    /* font-size: 13px; */
-    /* font-weight: 500; */
 }
 .coyright-section a{
     font-size: 11px;
@@ -46,8 +44,7 @@ p{
     cursor: pointer;
 }
 .coyright-section a:hover{
-    color:blue !important;
-    font-weight: 600;
+    color:#0275d8 !important;
 }
 .list-group-item-action span{
     font-size: 12px;
@@ -186,7 +183,7 @@ header,  .header-mobile-devices {
     margin-left: -5px;
 }
 .navbar-nav .navbar-item a:hover{
-    color: blue !important;
+    color: #0275d8 !important;
 }
 #navbarProfileSelect{
     border: none;
