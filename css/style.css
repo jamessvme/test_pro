@@ -37,13 +37,13 @@ p{
     font-weight: 600;
     cursor: pointer;
 } */
-.coyright-section a{
-    font-size: 11px;
+.coyright-section span{
+    font-size: 0.8rem;
     font-weight: 500;
     margin-right: 5px;
     cursor: pointer;
 }
-.coyright-section a:hover{
+.coyright-section span:hover{
     color:#0275d8 !important;
 }
 .list-group-item-action span{
