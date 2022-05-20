@@ -32,7 +32,7 @@ p{
     font-size: 13px;
     font-weight: 500;
 }
-.coyright-section h6 span{
+.coyright-section .logo{
     color: red;
     font-weight: 600;
     cursor: pointer;
